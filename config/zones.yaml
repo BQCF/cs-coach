@@ -1,0 +1,967 @@
+meta:
+  version: 1
+  note: csc zones suggest 生成，待人工改名
+maps:
+  de_ancient:
+    zones:
+    - name: B点
+      aliases:
+      - zone_29
+      center:
+      - -304.3
+      - 1727.7
+      radius: 201.7
+      site: ''
+    - name: B点
+      aliases:
+      - zone_20
+      center:
+      - -480.3
+      - 1711.3
+      radius: 210.7
+      site: ''
+    - name: B点
+      aliases:
+      - zone_23
+      center:
+      - -192.0
+      - 1696.0
+      radius: 120.0
+      site: ''
+    - name: A点
+      aliases:
+      - zone_08
+      center:
+      - 1222.7
+      - 261.5
+      radius: 195.2
+      site: ''
+    - name: 匪家
+      aliases:
+      - zone_02
+      center:
+      - -1406.4
+      - 82.8
+      radius: 153.0
+      site: ''
+    - name: 匪家
+      aliases:
+      - zone_109
+      center:
+      - -1801.3
+      - 1179.2
+      radius: 187.5
+      site: ''
+    - name: zone_07
+      aliases: []
+      center:
+      - 583.1
+      - 189.0
+      radius: 153.5
+      site: ''
+    - name: A大
+      aliases:
+      - zone_46
+      center:
+      - 121.0
+      - -742.4
+      radius: 154.7
+      site: ''
+    - name: 匪家
+      aliases:
+      - zone_110
+      center:
+      - -1656.1
+      - 1177.7
+      radius: 120.0
+      site: ''
+    - name: 中路
+      aliases:
+      - zone_61
+      center:
+      - -1838.5
+      - 513.7
+      radius: 171.9
+      site: ''
+    - name: 中路
+      aliases:
+      - zone_39
+      center:
+      - -633.8
+      - 327.1
+      radius: 220.4
+      site: ''
+    - name: 匪家
+      aliases:
+      - zone_111
+      center:
+      - -1808.8
+      - 1023.7
+      radius: 164.9
+      site: ''
+    - name: 中路
+      aliases:
+      - zone_12
+      center:
+      - -1259.9
+      - 94.4
+      radius: 130.9
+      site: ''
+    - name: 中路
+      aliases:
+      - zone_42
+      center:
+      - -574.8
+      - 760.4
+      radius: 160.3
+      site: ''
+    - name: 中路
+      aliases:
+      - zone_30
+      center:
+      - -494.4
+      - 625.2
+      radius: 238.8
+      site: ''
+    - name: A大
+      aliases:
+      - zone_06
+      center:
+      - 536.8
+      - -176.9
+      radius: 160.1
+      site: ''
+    - name: A点
+      aliases:
+      - zone_103
+      center:
+      - 1376.1
+      - 556.1
+      radius: 120.0
+      site: ''
+    - name: A二楼
+      aliases:
+      - zone_90
+      center:
+      - 554.9
+      - 810.2
+      radius: 163.4
+      site: ''
+    - name: CT家
+      aliases:
+      - zone_93
+      center:
+      - -2146.3
+      - -383.6
+      radius: 189.2
+      site: ''
+    - name: 中路
+      aliases:
+      - zone_14
+      center:
+      - 746.9
+      - 117.0
+      radius: 174.8
+      site: ''
+    - name: A大
+      aliases:
+      - zone_35
+      center:
+      - 324.6
+      - -179.5
+      radius: 186.2
+      site: ''
+    - name: 中路
+      aliases:
+      - zone_68
+      center:
+      - -1368.1
+      - 548.5
+      radius: 188.3
+      site: ''
+    - name: A大
+      aliases:
+      - zone_16
+      center:
+      - 472.1
+      - -335.9
+      radius: 212.6
+      site: ''
+    - name: B通
+      aliases:
+      - zone_36
+      center:
+      - -965.5
+      - -138.3
+      radius: 155.1
+      site: ''
+    - name: A二楼
+      aliases:
+      - zone_32
+      center:
+      - -1220.5
+      - -82.8
+      radius: 178.6
+      site: ''
+    - name: A大
+      aliases:
+      - zone_21
+      center:
+      - 1172.7
+      - -268.0
+      radius: 191.4
+      site: ''
+    - name: A点
+      aliases:
+      - zone_60
+      center:
+      - 1240.5
+      - 936.6
+      radius: 142.6
+      site: ''
+    - name: A大
+      aliases:
+      - zone_64
+      center:
+      - 544.5
+      - 322.5
+      radius: 155.1
+      site: ''
+    - name: A大
+      aliases:
+      - zone_87
+      center:
+      - 737.5
+      - -309.5
+      radius: 167.7
+      site: ''
+    - name: CT家
+      aliases:
+      - zone_114
+      center:
+      - -2001.6
+      - 1113.3
+      radius: 133.8
+      site: ''
+    - name: zone_15
+      aliases: []
+      center:
+      - 1381.0
+      - -469.3
+      radius: 190.6
+      site: ''
+    - name: A大
+      aliases:
+      - zone_45
+      center:
+      - 400.0
+      - -323.0
+      radius: 201.3
+      site: ''
+    - name: A二楼
+      aliases:
+      - zone_47
+      center:
+      - 737.6
+      - 525.0
+      radius: 145.4
+      site: ''
+    - name: A大
+      aliases:
+      - zone_126
+      center:
+      - 731.3
+      - -497.4
+      radius: 149.5
+      site: ''
+    - name: B通
+      aliases:
+      - zone_49
+      center:
+      - -1486.6
+      - -118.4
+      radius: 171.8
+      site: ''
+    - name: 中路
+      aliases:
+      - zone_00
+      center:
+      - -1225.2
+      - 547.9
+      radius: 141.0
+      site: ''
+    - name: A大
+      aliases:
+      - zone_57
+      center:
+      - 99.8
+      - -558.9
+      radius: 153.2
+      site: ''
+    - name: B通
+      aliases:
+      - zone_01
+      center:
+      - -1195.8
+      - -311.9
+      radius: 120.0
+      site: ''
+    - name: A大
+      aliases:
+      - zone_50
+      center:
+      - 514.8
+      - -541.0
+      radius: 147.8
+      site: ''
+    - name: A大
+      aliases:
+      - zone_119
+      center:
+      - 421.7
+      - 268.9
+      radius: 120.0
+      site: ''
+  de_inferno:
+    zones:
+    - name: A二楼
+      aliases:
+      - zone_07
+      center:
+      - 2474.4
+      - 2082.2
+      radius: 120.0
+      site: ''
+    - name: A二楼
+      aliases:
+      - zone_09
+      center:
+      - 2344.4
+      - 2054.3
+      radius: 182.4
+      site: ''
+    - name: A二楼
+      aliases:
+      - zone_20
+      center:
+      - 2352.8
+      - 1976.6
+      radius: 241.0
+      site: ''
+    - name: 中路
+      aliases:
+      - zone_03
+      center:
+      - 981.4
+      - 2730.6
+      radius: 144.4
+      site: ''
+    - name: A厅
+      aliases:
+      - zone_02
+      center:
+      - 2100.4
+      - -134.2
+      radius: 178.1
+      site: ''
+    - name: A厅
+      aliases:
+      - zone_05
+      center:
+      - 2095.6
+      - -287.8
+      radius: 149.2
+      site: ''
+    - name: A厅匪口
+      aliases:
+      - zone_50
+      center:
+      - 2529.7
+      - -128.9
+      radius: 150.2
+      site: ''
+    - name: 中路
+      aliases:
+      - zone_57
+      center:
+      - 1609.5
+      - 1205.7
+      radius: 168.8
+      site: ''
+    - name: 匪家
+      aliases:
+      - zone_06
+      center:
+      - 526.4
+      - 3121.3
+      radius: 198.2
+      site: ''
+    - name: 中路
+      aliases:
+      - zone_08
+      center:
+      - 797.8
+      - 2302.3
+      radius: 150.4
+      site: ''
+    - name: CT家
+      aliases:
+      - zone_17
+      center:
+      - 1426.9
+      - -73.6
+      radius: 133.0
+      site: ''
+    - name: CT家
+      aliases:
+      - zone_01
+      center:
+      - 1636.6
+      - -69.7
+      radius: 138.6
+      site: ''
+    - name: CT家
+      aliases:
+      - zone_00
+      center:
+      - 1884.2
+      - -275.5
+      radius: 153.9
+      site: ''
+    - name: B通
+      aliases:
+      - zone_25
+      center:
+      - 548.6
+      - 2511.1
+      radius: 162.4
+      site: ''
+    - name: 中路
+      aliases:
+      - zone_54
+      center:
+      - 1394.5
+      - 1213.9
+      radius: 181.9
+      site: ''
+    - name: A大
+      aliases:
+      - zone_36
+      center:
+      - 2229.1
+      - 973.7
+      radius: 220.5
+      site: ''
+    - name: B通
+      aliases:
+      - zone_35
+      center:
+      - 754.4
+      - 2141.0
+      radius: 200.6
+      site: ''
+    - name: A大
+      aliases:
+      - zone_21
+      center:
+      - 1876.2
+      - 532.8
+      radius: 154.5
+      site: ''
+    - name: B通
+      aliases:
+      - zone_13
+      center:
+      - 510.2
+      - 2087.4
+      radius: 177.8
+      site: ''
+    - name: A大
+      aliases:
+      - zone_80
+      center:
+      - 2146.3
+      - 309.0
+      radius: 200.8
+      site: ''
+    - name: A大
+      aliases:
+      - zone_26
+      center:
+      - 1884.6
+      - 149.0
+      radius: 187.4
+      site: ''
+    - name: A点
+      aliases:
+      - zone_53
+      center:
+      - 2537.8
+      - 1173.1
+      radius: 151.9
+      site: ''
+    - name: B通
+      aliases:
+      - zone_23
+      center:
+      - 797.3
+      - 2489.7
+      radius: 202.1
+      site: ''
+    - name: B坡
+      aliases:
+      - zone_52
+      center:
+      - 390.0
+      - 1884.4
+      radius: 205.3
+      site: ''
+    - name: 匪家
+      aliases:
+      - zone_12
+      center:
+      - 543.0
+      - 3359.2
+      radius: 193.3
+      site: ''
+    - name: 匪家
+      aliases:
+      - zone_39
+      center:
+      - 87.5
+      - 3163.9
+      radius: 137.2
+      site: ''
+    - name: A大
+      aliases:
+      - zone_15
+      center:
+      - 1849.3
+      - 293.8
+      radius: 146.6
+      site: ''
+    - name: B点
+      aliases:
+      - zone_24
+      center:
+      - 740.4
+      - 1901.2
+      radius: 155.2
+      site: ''
+    - name: A连
+      aliases:
+      - zone_76
+      center:
+      - 1636.9
+      - 100.3
+      radius: 150.5
+      site: ''
+    - name: B点
+      aliases:
+      - zone_28
+      center:
+      - 497.6
+      - 1872.9
+      radius: 190.3
+      site: ''
+    - name: 中路
+      aliases:
+      - zone_83
+      center:
+      - 1285.1
+      - 767.6
+      radius: 120.0
+      site: ''
+    - name: 中路
+      aliases:
+      - zone_37
+      center:
+      - 1196.2
+      - 2749.6
+      radius: 154.0
+      site: ''
+    - name: A连
+      aliases:
+      - zone_46
+      center:
+      - 1817.5
+      - 1239.1
+      radius: 200.0
+      site: ''
+    - name: A点
+      aliases:
+      - zone_55
+      center:
+      - 2487.2
+      - 939.7
+      radius: 207.2
+      site: ''
+    - name: 香蕉道中段
+      aliases:
+      - zone_64
+      center:
+      - 372.3
+      - 2487.5
+      radius: 183.4
+      site: ''
+    - name: 中路
+      aliases:
+      - zone_67
+      center:
+      - 1423.6
+      - 354.0
+      radius: 168.1
+      site: ''
+    - name: A厅匪口
+      aliases:
+      - zone_74
+      center:
+      - 2290.8
+      - -150.9
+      radius: 179.2
+      site: ''
+    - name: CT家
+      aliases:
+      - zone_10
+      center:
+      - 1861.6
+      - -129.4
+      radius: 170.9
+      site: ''
+    - name: 香蕉道匪口
+      aliases:
+      - zone_65
+      center:
+      - 331.0
+      - 2761.4
+      radius: 159.4
+      site: ''
+    - name: 香蕉道
+      aliases:
+      - zone_123
+      center:
+      - 43.8
+      - 2582.5
+      radius: 226.8
+      site: ''
+  de_mirage:
+    zones:
+    - name: B点
+      aliases:
+      - zone_13
+      center:
+      - -1677.4
+      - -1890.6
+      radius: 150.1
+      site: ''
+    - name: B点
+      aliases:
+      - zone_40
+      center:
+      - -1776.3
+      - -1888.1
+      radius: 212.7
+      site: ''
+    - name: 匪家
+      aliases:
+      - zone_10
+      center:
+      - -980.9
+      - -2505.3
+      radius: 145.9
+      site: ''
+    - name: B窗
+      aliases:
+      - zone_11
+      center:
+      - -2118.6
+      - 783.2
+      radius: 181.4
+      site: ''
+    - name: A点
+      aliases:
+      - zone_32
+      center:
+      - 119.5
+      - -1932.4
+      radius: 198.8
+      site: ''
+    - name: A二楼
+      aliases:
+      - zone_26
+      center:
+      - -300.3
+      - -2159.4
+      radius: 201.7
+      site: ''
+    - name: 下水道
+      aliases:
+      - zone_37
+      center:
+      - -724.8
+      - -2126.5
+      radius: 149.0
+      site: ''
+    - name: 中路
+      aliases:
+      - zone_44
+      center:
+      - -1183.2
+      - -750.4
+      radius: 143.9
+      site: ''
+    - name: 拱门
+      aliases:
+      - zone_03
+      center:
+      - -533.7
+      - -1412.1
+      radius: 160.1
+      site: ''
+    - name: A点
+      aliases:
+      - zone_39
+      center:
+      - 101.6
+      - -2051.9
+      radius: 166.3
+      site: ''
+    - name: 中路
+      aliases:
+      - zone_45
+      center:
+      - -1183.7
+      - -523.8
+      radius: 156.9
+      site: ''
+    - name: B二楼
+      aliases:
+      - zone_29
+      center:
+      - -965.4
+      - 292.3
+      radius: 186.6
+      site: ''
+    - name: 拱门
+      aliases:
+      - zone_02
+      center:
+      - -771.4
+      - -1276.1
+      radius: 205.4
+      site: ''
+    - name: 中路
+      aliases:
+      - zone_36
+      center:
+      - -1236.4
+      - -984.0
+      radius: 161.7
+      site: ''
+    - name: 拱门
+      aliases:
+      - zone_48
+      center:
+      - -554.9
+      - -997.3
+      radius: 148.7
+      site: ''
+    - name: 拱门
+      aliases:
+      - zone_16
+      center:
+      - -783.8
+      - -1365.0
+      radius: 189.0
+      site: ''
+    - name: A二楼
+      aliases:
+      - zone_72
+      center:
+      - -318.1
+      - -2345.8
+      radius: 178.0
+      site: ''
+    - name: 拱门
+      aliases:
+      - zone_00
+      center:
+      - -549.8
+      - -1254.4
+      radius: 177.1
+      site: ''
+    - name: A点
+      aliases:
+      - zone_64
+      center:
+      - 115.1
+      - -1672.8
+      radius: 171.7
+      site: ''
+    - name: 拱门
+      aliases:
+      - zone_57
+      center:
+      - -996.0
+      - -135.2
+      radius: 170.8
+      site: ''
+    - name: 拱门
+      aliases:
+      - zone_61
+      center:
+      - -1145.7
+      - -325.8
+      radius: 120.0
+      site: ''
+    - name: B窗
+      aliases:
+      - zone_96
+      center:
+      - -2293.5
+      - 771.3
+      radius: 144.7
+      site: ''
+    - name: 下水道
+      aliases:
+      - zone_56
+      center:
+      - -1240.0
+      - -1181.0
+      radius: 196.5
+      site: ''
+    - name: 拱门
+      aliases:
+      - zone_14
+      center:
+      - -777.6
+      - -955.3
+      radius: 171.4
+      site: ''
+    - name: A点
+      aliases:
+      - zone_67
+      center:
+      - -61.0
+      - -1875.9
+      radius: 178.3
+      site: ''
+    - name: CT家
+      aliases:
+      - zone_17
+      center:
+      - -2043.7
+      - -580.0
+      radius: 187.9
+      site: ''
+    - name: 匪家
+      aliases:
+      - zone_34
+      center:
+      - -805.5
+      - -2261.7
+      radius: 201.4
+      site: ''
+    - name: 中路
+      aliases:
+      - zone_30
+      center:
+      - -1366.1
+      - -977.8
+      radius: 202.7
+      site: ''
+    - name: B二楼
+      aliases:
+      - zone_31
+      center:
+      - -792.9
+      - 287.5
+      radius: 150.3
+      site: ''
+    - name: 拱门
+      aliases:
+      - zone_74
+      center:
+      - -766.7
+      - -46.4
+      radius: 203.9
+      site: ''
+    - name: B窗
+      aliases:
+      - zone_01
+      center:
+      - -1910.6
+      - 764.0
+      radius: 179.2
+      site: ''
+    - name: B窗
+      aliases:
+      - zone_50
+      center:
+      - -1902.5
+      - 344.1
+      radius: 177.8
+      site: ''
+    - name: 拱门
+      aliases:
+      - zone_105
+      center:
+      - -970.9
+      - -338.5
+      radius: 148.1
+      site: ''
+    - name: zone_05
+      aliases: []
+      center:
+      - -998.6
+      - -2327.6
+      radius: 135.6
+      site: ''
+    - name: 楼梯
+      aliases:
+      - zone_139
+      center:
+      - -283.0
+      - -1505.2
+      radius: 130.1
+      site: ''
+    - name: 楼梯
+      aliases:
+      - zone_92
+      center:
+      - -1185.6
+      - -1480.8
+      radius: 182.2
+      site: ''
+    - name: 拱门
+      aliases:
+      - zone_19
+      center:
+      - -784.5
+      - -317.2
+      radius: 150.1
+      site: ''
+    - name: A二楼
+      aliases:
+      - zone_100
+      center:
+      - 66.1
+      - -2313.7
+      radius: 164.8
+      site: ''
+    - name: B窗
+      aliases:
+      - zone_47
+      center:
+      - -2499.6
+      - 284.2
+      radius: 188.3
+      site: ''
+    - name: B窗
+      aliases:
+      - zone_33
+      center:
+      - -2039.8
+      - 362.2
+      radius: 198.4
+      site: ''

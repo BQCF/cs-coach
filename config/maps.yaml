@@ -1,0 +1,50 @@
+# 地图区域 / 敌方进入点 / 掩体点。
+#
+# 坐标全部使用 Hammer units，与 demo 内位置一致（Z 轴向上）。
+# 默认留空（null / []），不要凭空填坐标——错误坐标会让暴露面指标彻底失真。
+#
+# 填充方式（二选一）：
+#   1. csc maps edit --map de_mirage
+#      打印该图 world->radar 变换与雷达图路径，人工在雷达图上点位置后换算；
+#   2. 职业 demo 自动聚类（M2.5，scripts/derive_entry_points.py 桩已就位）。
+#
+# 门禁：某个区域被指标引用时，至少需要 gate_min_entry_points 个 entering point，
+# 否则 metrics 自动降级为 null（不报错），并在报告里标注 geo_missing。
+
+defaults:
+  gate_min_entry_points: 3
+  gate_min_cover_points: 1
+  default_region: A
+
+maps:
+  de_mirage:
+    regions:
+      A:
+        center: null      # 例：[            -600.0, -1600.0, -160.0]
+        radius: 1100.0
+      B:
+        center: null
+        radius: 1100.0
+    entry_points:
+      A: []               # 例：- {name: palace, pos: [x, y, z]}
+      B: []
+    cover_points:
+      A: []               # 例：- {name: default_angle_wall, pos: [x, y, z]}
+      B: []
+    todo: "待填坐标：A 点入口(chute/palace/connector/short)，B 点入口(apps/tv-ramp/catwalk)"
+
+  de_inferno:
+    regions:
+      A:
+        center: null
+        radius: 1100.0
+      B:
+        center: null
+        radius: 1100.0
+    entry_points:
+      A: []
+      B: []
+    cover_points:
+      A: []
+      B: []
+    todo: "待填坐标：A 点入口(ramp/pit/ct/truck)，B 点入口(banana/ct/arches)"

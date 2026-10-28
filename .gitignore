@@ -1,0 +1,30 @@
+# 环境
+.venv/
+.venv-*/
+
+# 缓存与产物（大文件，不进 git）
+.awpy/
+.tmp/
+data/cache/
+data/demos/
+output/
+*.parquet
+*.dem
+
+# pip 残留
+pip-*
+pip_*
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+pytest-of-*/
+
+# 本机临时
+.DS_Store
+Thumbs.db
+
+# 一次性调试脚本（别把个人路径/昵称带进 git）
+/_*.py

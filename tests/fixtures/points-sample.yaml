@@ -1,0 +1,32 @@
+# 由 csc maps edit 导出
+maps:
+  de_mirage:
+    regions:
+      A:
+        center: [-600.0, -1600.0, -160.0]
+        radius: 1100.0
+      B:
+        center: [-1200.0, 900.0, -160.0]
+        radius: 900.0
+    entry_points:
+      A:
+        - name: "palace"
+          pos: [190.0, -1660.0, -184.0]
+        - name: "chute"
+          pos: [-1100.0, -2300.0, -184.0]
+        - name: "connector"
+          pos: [-700.0, -900.0, -184.0]
+      B:
+        - name: "apps"
+          pos: [-1900.0, 200.0, -184.0]
+        - name: "catwalk"
+          pos: [-500.0, 1200.0, -120.0]
+        - name: "ladder"
+          pos: [-1400.0, 1500.0, -184.0]
+    cover_points:
+      A:
+        - name: "triple_wall"
+          pos: [-450.0, -1850.0, -184.0]
+      B:
+        - name: "bench"
+          pos: [-1300.0, 700.0, -184.0]

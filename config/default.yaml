@@ -1,0 +1,69 @@
+# CS Coach 默认配置。所有阈值集中在这里，代码里不写魔数。
+# 单位：位置=Hammer units，时间=秒，角度=度。
+
+me:
+  # 你的游戏内昵称或 steamid（CLI --player 优先级更高）
+  name: ""
+
+paths:
+  demos: data/demos
+  cache: data/cache
+  output: output
+  awpy_data: .awpy
+  tmp: .tmp
+
+windows:
+  pre_s: 2.0          # 死亡前回溯窗口
+  post_s: 0.5         # 死亡后观察窗口
+  merge_gap_s: 1.0    # 相邻窗口间隔小于此值就合并，减少 snapshots 调用次数
+  max_windows: 400    # 安全阀：窗口太多说明参数错了
+
+rules:
+  blind_lookback_s: 2.0        # 归因1：死亡前多久内的闪光算“被闪”
+  blind_min_duration_s: 1.2    # 归因1：致盲时长门槛
+  behind_angle_deg: 90.0       # 归因2：击杀者方向与朝向夹角超过即背身/侧身
+  empty_clip_window_s: 0.6     # 归因3：死亡前多久内的空弹匣开枪算“打空”
+  near_miss_window_s: 0.15     # 归因3：最近一次开火距死亡小于此值也算“打空/换弹”
+  moving_speed: 60.0           # 归因4：死亡前 0.5s 平均速度超过即“移动中对枪”
+  moving_lookback_s: 0.5
+  peek_speed_max: 30.0         # 归因5：被拉死时死者必须几乎静止
+  peek_speed_lookback_s: 0.5
+  contact_time_s: 0.5          # 归因6：双方提前这么久就互相可见 = 架死
+  predictable_lookback_s: 0.3  # 指标 predictable：看他 0.3s 前的准星
+  predictable_angle_deg: 6.0
+  gap_window_s: 1.5            # 指标 first_seen_gap 的搜索窗口
+  peek_search_s: 1.5           # 找“他从遮挡后出现”的搜索窗口
+
+geom:
+  eye_stand: 64.0       # 站立眼高
+  eye_crouch: 46.0      # 下蹲眼高
+  smoke_radius: 144.0   # 烟雾半径（约 288u 直径）
+  walk_speed: 250.0     # 退路时间用走速，不用跑速
+  crossfire_angle_deg: 60.0
+  fov_deg: 90.0         # 有效视野：先手差用 FOV 而非 360° 通视
+
+bench:
+  grid: 96.0            # 落位网格边长
+  anchor_radius: 200.0  # 判“锚点”的包点半径
+  anchor_hold_s: 40.0   # 回合前 N 秒
+  anchor_hold_ratio: 0.5
+  role_window_s: 60.0
+  outlier_quantile: 0.2
+  economy_tolerance: 500.0   # 装备价值差 <= 此值 = 同经济
+  neighborhood_radius: 200.0 # 邻域频率半径（u）
+  holding_speed: 80.0        # 架枪速度阈值 u/s
+  sample_stride: 8           # 采样降密度：每 N tick 取 1 个落位点
+
+report:
+  min_samples: 3        # 少于这么多条不下结论
+  top_n: 5
+
+# 责任判定阈值（计划 §5.2）
+fault:
+  preaim_bad_deg: 15.0   # 他出现时准星偏差超此 = 预瞄有问题
+  preaim_ok_deg: 6.0     # 此内 = 预瞄没问题
+  slow_react_ms: 350     # 反应超此毫秒 = 慢
+  oneshot_hp: 30         # 血量低于此 = 残血被秒
+  exposure_bad: 2        # 暴露面达此 = 站位问题
+  escape_bad: 1.0        # 退路超此秒 = 站位问题
+  escape_config_max: 5.0  # 退路超此秒 = 配置问题(position_config)
